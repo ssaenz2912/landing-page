@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--header section includes the header and hero of the page. It is divided in two classes that each 
+    encompass one side of the page.-->
     <div class= header-section>
         <div class="left">
             <div class="logohead">Iced Out</div>
                 <div class="hero">
                 <div class="herotxt">The coldest place on the internet</div>
-                <div class="subtext">The chillest, illset site you've been in.</div>
+                <div class="subtext">The chillest, illest site you've been in.</div>
                 <div class="herobutton"><button type="button" class=herobtn>Sign Up</button></div>
             </div> 
         </div>
@@ -27,8 +29,52 @@
                 </div>
             </ul>
             <div class="heroimg"><img src="./img/heroimg.jpg" alt="A cool icicle"></div>
+        </div> 
+    </div>
+    <!-- mid is a class that hosts two flex containers in column direction. "title" container just hosts the title. 
+    Meanwhile "mid-container" hosts four elements in row direction. These elements hold a graphic and 
+    text that are in column direction-->
+    <div class="mid">
+        <div class="title">
+            <div class="mid-title">A DIFFERENT KIND OF DRIP</div>
+        </div>
+        <div class="mid-container">
+            <div class=container>
+                <div class="text">Something Cool</div>
+               <img class=img src="./img/ice1.jpg" alt="Placeholder for img">
+            </div>
+            <div class=container>
+                <div class="text">Something Cold</div>
+                <img class="img" src="./img/ice2.jpg" alt="Placeholder for img">
+            </div>
+            <div class=container>
+                <div class="text">Something Icy</div>
+                <img class="img" src="./img/ice3.jpg" alt="Placeholder for img">
+            </div>
+            <div class=container>
+                <div class="text">Something Chill</div>
+                <img class="img" src="./img/ice4.jpg" alt="Placeholder for img">
+            </div>
+            
         </div>
     </div>
+    <!--"info" is just a container for "quote" and "name" in acolumn direction with different indentation 
+    and font decoration.-->
+    <div class="info">
+        <div class="quote">"Real gs move in silence like lasagna."</div>
+        <div class="name">-Lil Wayne</div>
+    </div>
+    <div class="cta">
+        <div class="ctatext">
+            <div class="ctatitle">Move like a g, move icy.</div>
+            <div class="subtitle">Join us to receive monthly ice.</div>
+        </div>
+        <div class="ctabutton"><button type="button" class=ctabtn>Sign Up</button></div>
+    </div>
+    <div class="footer">
+        <div class="Sam">Copyright Sam S</div>
+    </div>
+
     
 </body>
 </html>
